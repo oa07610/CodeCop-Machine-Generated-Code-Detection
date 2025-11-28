@@ -1,0 +1,22 @@
+# GPT-OSS QLoRA Dependencies
+# Note: Best installed in Google Colab environment
+
+transformers==4.56.2
+tokenizers
+trl==0.22.2
+datasets
+peft>=0.10.0
+
+# Unsloth for fast fine-tuning
+unsloth_zoo
+unsloth
+
+# Quantization
+bitsandbytes
+
+# Training
+accelerate
+scikit-learn
+pyarrow==19.0.0
+torch>=2.0.0
+

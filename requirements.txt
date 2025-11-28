@@ -1,0 +1,23 @@
+# Global Dependencies (common across all approaches)
+# For approach-specific dependencies, see requirements.txt in each approach folder
+
+# Core ML/DL
+torch>=2.0.0
+transformers>=4.40.0
+datasets>=2.18.0
+
+# Data handling
+pandas>=2.0.0
+numpy>=1.24.0
+pyarrow>=15.0.0
+
+# Metrics
+scikit-learn>=1.4.0
+
+# Training utilities
+accelerate>=0.28.0
+peft>=0.10.0
+tqdm>=4.66.0
+
+# Optional: Experiment tracking
+wandb>=0.16.0

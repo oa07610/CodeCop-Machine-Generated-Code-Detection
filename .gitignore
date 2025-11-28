@@ -1,0 +1,106 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# pyenv
+.python-version
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Model checkpoints and outputs
+*.pt
+*.pth
+*.bin
+*.safetensors
+checkpoints/
+outputs/
+*_output/
+wandb/
+
+# Large files
+*.zip
+*.tar.gz
+*.rar
+
+# LoRA adapters (uncomment if you want to track these)
+# lora_adapter/
+# finetuned_*/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Checkpoint files from inference
+predictions_checkpoint.csv
+final_predictions.csv
+
+# Data files (large parquet files not tracked in git)
+# Download from HuggingFace: DaniilOr/SemEval-2026-Task13
+data/*.parquet
+
