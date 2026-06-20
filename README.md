@@ -44,8 +44,8 @@ DL_Project/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/semeval2026-task13-code-detection.git
-cd semeval2026-task13-code-detection
+git clone https://github.com/oa07610/CodeCop-Machine-Generated-Code-Detection.git
+cd CodeCop-Machine-Generated-Code-Detection
 ```
 
 ### 2. Choose an Approach
