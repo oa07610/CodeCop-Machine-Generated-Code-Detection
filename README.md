@@ -101,15 +101,6 @@ After downloading, your `data/` folder should contain:
 | `language` | Programming language |
 | `generator` | Source of the code |
 
-## Results
-
-| Model | Validation Macro F1 |
-|-------|---------------------|
-| CodeBERT | TBD |
-| UnixCoder LoRA | TBD |
-| GPT-OSS QLoRA | TBD |
-| Qwen3 Zero-Shot | TBD |
-
 ## Citation
 
 If you use this code, please cite:
